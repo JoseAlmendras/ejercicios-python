@@ -1,5 +1,5 @@
 nombre = "JOSE"
 
 print(f" Mi nombre es {nombre}")
-var apellido = "Almendras"
+apellido = "Almendras"
 ## wena choro
