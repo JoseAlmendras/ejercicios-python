@@ -396,21 +396,21 @@ admin.superSaludo()
 
 ##### MODULOS ####
 # importar modulos.py
-import modulos
+from ejercicioModulos.modulos import modulos as mode
 
-print(modulos.mascotas)
-modulos.saludo('Franco')
+print(mode.mascotas)
+mode.saludo('Franco')
 
 # importar y cambiar nombre
-import modulos as mode # importamos el modulo y le cambiamos el nombre por mode 
+#import modulos as mode # importamos el modulo y le cambiamos el nombre por mode 
 
 print(mode.mascotas)
 mode.saludo('Franco')
 
 #importar solo el saludo 
-from modulos import saludo
+#from modulos import saludo
 
-saludo('Nicolas')
+#saludo('Nicolas')
 
 #print(perros)
 

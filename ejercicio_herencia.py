@@ -3,7 +3,7 @@ class Animal:
         self.nombre = nombre
         self.onomatopeya = onomatopeya
     def saludo(self):
-         print(' Hola soy un ', self.tipo,' y mi sonido es el ',self.onomatopeya)
+         print(' Hola soy un ', self.nombre,' y mi sonido es el ',self.onomatopeya)
 
 class Gato(Animal):
     tipo = 'gato'
