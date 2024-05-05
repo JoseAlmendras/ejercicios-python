@@ -21,18 +21,18 @@ dr = ""
 examen = ""
 valor = 0
 # leer nombre 
-if os.name != 'nt':
-    os.system("clear")
-else:
-    os.system('cls')
+def limpia_pantalla():
+    if os.name != 'nt':
+        print(" No Windows")
+        os.system("clear")
+    if os.name == "nt":
+        print("En Windows")
+        os.system('cls')
 
 nombre = input(" Nombre del paciente: \n")
 rut = input("Rut del paciente: \n")
 diagnostico = input(" Diagnostico del paciente: \n")
-if os.name != 'nt':
-    os.system("clear")
-else:
-    os.system('cls')
+limpia_pantalla()
 
 # Comentarios Establece un Menú
 print(" Examen a realizar")
@@ -44,10 +44,7 @@ opcion = input(" Ingrece una opcion \n")
 if opcion == "1":
     # agrega lo de la opcion 1
 
-    if os.name != 'nt':
-        os.system("clear")
-    else:
-        os.system('cls')
+    limpia_pantalla()
 
     print(" Resonancia magnetica ")
     print(" 1).- Particular. \n 2).- Con fonasa. \n 3).- Con isapre. \n" )
@@ -68,10 +65,7 @@ if opcion == "1":
 
 # opcion 2.- Escaner
 if opcion == "2":
-    if os.name != 'nt':
-        os.system("clear")
-    else:
-        os.system('cls')
+    limpia_pantalla()
 
     print(" Escaner ")
     print("1).- Particular \n 2).- Con fonasa \n 3).- Con isapre \n")
@@ -111,10 +105,7 @@ elif opcion == "0":
     exit()
 
 #limpiar pantalla 
-if os.name != 'nt':
-    os.system("clear")
-else:
-    os.system('cls')
+limpia_pantalla()
 
 print( "====================================")
 print( "Clinica IGN")
