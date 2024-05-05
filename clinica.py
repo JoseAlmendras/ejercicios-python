@@ -23,12 +23,10 @@ valor = 0
 # leer nombre 
 def limpia_pantalla():
     if os.name != 'nt':
-        print(" No Windows")
         os.system("clear")
-    if os.name == "nt":
-        print("En Windows")
+    else:
         os.system('cls')
-
+limpia_pantalla()
 nombre = input(" Nombre del paciente: \n")
 rut = input("Rut del paciente: \n")
 diagnostico = input(" Diagnostico del paciente: \n")
