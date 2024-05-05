@@ -25,6 +25,7 @@ inicio = "Hola "
 final = "Mundo"
 
 #print(inicio + final)
+print(f"{inicio} {final}")
 
 #print(x, y)
 
