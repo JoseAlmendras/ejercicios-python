@@ -76,6 +76,8 @@ indice_0 = lista[0]
 ### tuplas (inmutables)
 tupla_1 = ('hola', 'mundo','Chanchito') 
 # a las tuplas se les puede aplicar el count y ademas el index 
+# obtener el valor en la posicion 0 de la tupla 
+tupla_1[0]
 # buscar el indice de un elemento 
 busca_mundo = tupla_1.index('mundo')
 # para modificar una tupla se debe convertir en lista 
