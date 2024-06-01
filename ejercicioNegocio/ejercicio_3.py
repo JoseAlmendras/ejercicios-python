@@ -6,4 +6,4 @@ if num2 >mayor:
     mayor = num2
 if num3 > mayor:
     mayor = num3
-print("El mayot numero ingresado es:", mayor)
+print("El mayor numero ingresado es:", mayor)
